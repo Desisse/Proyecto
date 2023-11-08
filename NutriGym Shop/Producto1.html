@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container-navbar">
+            <div class="navbar">
+                <i class="fa fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+                <form class="search-form">
+                    <input type="text" placeholder="Buscar productos">
+                    <button class="btn-search"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div class="product-details">
+        <div class="item">
+            <figure>
+                <img src="imagenes/imagen_producto1.jpg" alt="Zapatos Nike">
+            </figure>
+            <div class="info-product">
+                <h2>Zapatillas de correr Nike Revolution 5, Nike, Hombre</h2>
+                <h3>Acerca de este artículo
+                    Plantilla blanda
+                    Forro blando.
+                    La suela de goma proporciona una tracción duradera en varias superficies</h3>
+                <p class="price">$1,952.62</p>
+                <a href="#" class="btn-comprar">Agragar al carrito</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript code to show a confirmation message
+        const comprarButton = document.querySelector('.btn-comprar');
+
+        comprarButton.addEventListener('click', () => {
+            alert('¡El producto se ha agregado al carrito correctamente!');
+        });
+    </script>
+</body>
+</html>
